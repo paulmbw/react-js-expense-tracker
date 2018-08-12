@@ -22,6 +22,8 @@ const App = (
 	</Provider>
 );
 
+console.log('hello')
+
 ReactDOM.render(<p>Loading...</p>, document.getElementById('app'));
 
 store.dispatch(startSetExpenses()).then(() => {
